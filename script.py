@@ -1,15 +1,15 @@
-# Define a list of numbers
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# Definieren einer Liste von Zahlen
+zahlen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# Initialize a variable to store the sum of odd numbers
-sum_odd = 0
+# Initialisieren einer Variablen, um die Summe der geraden Zahlen zu speichern
+summe_gerade = 0
 
-# Loop through each number in the list
-for number in numbers:
-    # Check if the number is odd
-    if number % 2 != 0:
-        # Add the odd number to the sum
-        sum_odd += number
+# Schleife durch jede Zahl in der Liste
+for zahl in zahlen:
+    # Überprüfen, ob die Zahl gerade ist
+    if zahl % 2 == 0:
+        # Die gerade Zahl zur Summe hinzufügen
+        summe_gerade += zahl
 
-# Print the result
-print("The sum of odd numbers is:", sum_odd)
+# Das Ergebnis ausgeben
+print("Die Summe der geraden Zahlen ist:", summe_gerade)
